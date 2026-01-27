@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 7180412837611954221}
   - component: {fileID: 3257992502622412315}
   - component: {fileID: 3117457413304774861}
-  - component: {fileID: 565748221394471814}
+  - component: {fileID: 381649132929911470}
   m_Layer: 0
   m_Name: XP Point
   m_TagString: Coin
@@ -126,8 +126,8 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 239683d288022b042900c79e72b25fce, type: 2}
---- !u!70 &565748221394471814
-CapsuleCollider2D:
+--- !u!58 &381649132929911470
+CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -161,5 +161,4 @@ CapsuleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 1}
-  m_Direction: 0
+  m_Radius: 0.5
