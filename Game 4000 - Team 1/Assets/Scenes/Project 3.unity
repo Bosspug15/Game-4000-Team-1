@@ -130,12 +130,12 @@ PrefabInstance:
     - target: {fileID: 3257992502622412315, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"coinValue","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"coinLevel","value":{"$content":2.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"coinLevel","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 5145307766235724883, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: m_Name
-      value: XP Point (lvl 2)
+      value: Trees (lvl 1)
       objectReference: {fileID: 0}
     - target: {fileID: 7520287225188847862, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -198,7 +198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5145307766235724883, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: m_Name
-      value: XP Point (lvl 3)
+      value: Buildings (lvl 3)
       objectReference: {fileID: 0}
     - target: {fileID: 7520287225188847862, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -644,7 +644,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5145307766235724883, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: m_Name
-      value: XP Point (lvl 2.5)
+      value: Cars (lvl 2)
       objectReference: {fileID: 0}
     - target: {fileID: 7520287225188847862, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1154,7 +1154,7 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Camera","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"SizeChart","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"XPToNextLvl","value":{"$content":10.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentLevel","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentLevel","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2344456454872898732, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
@@ -1244,7 +1244,7 @@ PrefabInstance:
     - target: {fileID: 3257992502622412315, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: _data._json
       value: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"coinValue","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"coinLevel","value":{"$content":1.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"coinLevel","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 3257992502622412315, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
@@ -1257,7 +1257,7 @@ PrefabInstance:
       objectReference: {fileID: 646542167}
     - target: {fileID: 5145307766235724883, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: m_Name
-      value: XP Point (lvl 1)
+      value: Trash (lvl 0)
       objectReference: {fileID: 0}
     - target: {fileID: 7520287225188847862, guid: 1cf01ca88865e6845a1be0c6cd0a01da, type: 3}
       propertyPath: m_LocalPosition.x
