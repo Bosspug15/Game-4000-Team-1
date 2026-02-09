@@ -1,13 +1,13 @@
 fileFormatVersion: 2
-guid: f81abc588cf4e1a488df8dd8a36dbe85
+guid: 74d3a25e7a0df3241ab55c6936424336
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5965594331837571111
-    second: Untitled_Artwork (31)_0
+      213: -7257260068994080629
+    second: Untitled_Artwork (37)_0
   - first:
-      213: -496732216518311871
-    second: Untitled_Artwork (31)_1
+      213: -648854565660046372
+    second: Untitled_Artwork (37)_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -103,13 +103,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Untitled_Artwork (31)_0
+      name: Untitled_Artwork (37)_0
       rect:
         serializedVersion: 2
         x: 195
         y: 163
         width: 454
-        height: 895
+        height: 954
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -118,20 +118,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9dfdcb0ff83f53da0800000000000000
-      internalID: -5965594331837571111
+      spriteID: b802bf8fa68094b90800000000000000
+      internalID: -7257260068994080629
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Untitled_Artwork (31)_1
+      name: Untitled_Artwork (37)_1
       rect:
         serializedVersion: 2
         x: 1397
         y: 164
         width: 462
-        height: 892
+        height: 936
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1400fed4ea04b19f0800000000000000
-      internalID: -496732216518311871
+      spriteID: cdb41f6d53ecef6f0800000000000000
+      internalID: -648854565660046372
       vertices: []
       indices: 
       edges: []
@@ -160,8 +160,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Untitled_Artwork (31)_0: -5965594331837571111
-      Untitled_Artwork (31)_1: -496732216518311871
+      Untitled_Artwork (37)_0: -7257260068994080629
+      Untitled_Artwork (37)_1: -648854565660046372
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
