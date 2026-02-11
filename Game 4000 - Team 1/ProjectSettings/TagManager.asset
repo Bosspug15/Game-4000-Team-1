@@ -7,6 +7,14 @@ TagManager:
   - Coin
   - Spike
   - Enemy
+  - ProduceStraw
+  - ProduceCarrot
+  - ProduceBlue
+  - ProduceCherry
+  - ProduceBroc
+  - ProduceMelon
+  - ProducePump
+  - ProduceOnion
   layers:
   - Default
   - TransparentFX
