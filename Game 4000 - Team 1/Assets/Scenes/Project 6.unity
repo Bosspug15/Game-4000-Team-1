@@ -1692,7 +1692,7 @@ Animator:
   m_GameObject: {fileID: 646542167}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: eeffa3d3d17e714458feae7446fa6d86, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1793,11 +1793,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5101603296733501986, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: m_Size.x
-      value: 1.23
+      value: 0.79741955
       objectReference: {fileID: 0}
     - target: {fileID: 5101603296733501986, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: m_Size.y
-      value: 1.35
+      value: 0.79741955
+      objectReference: {fileID: 0}
+    - target: {fileID: 5101603296733501986, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.008282423
+      objectReference: {fileID: 0}
+    - target: {fileID: 5101603296733501986, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.011618346
       objectReference: {fileID: 0}
     - target: {fileID: 6578090826975799165, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: m_Name
@@ -1851,6 +1859,10 @@ PrefabInstance:
       propertyPath: m_FlipX
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7119030313404661105, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2786205532151524974, guid: 6e3742a543fafa046b315f046db9b216, type: 3}
     - target: {fileID: 7119030313404661105, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: m_SortingOrder
       value: 10
