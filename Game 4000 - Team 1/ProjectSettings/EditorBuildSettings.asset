@@ -14,9 +14,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Project 3 NO REST.unity
     guid: 49f89658f4aa916478a11134a26c9c9a
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Project4.unity
     guid: 328deb9ce27d1c74f8d0010dce8df41a
+  - enabled: 1
+    path: Assets/Scenes/Project 5 BagSmall.unity
+    guid: f8fe390df2f48dc4d997782503ee200f
+  - enabled: 1
+    path: Assets/Scenes/Project 5 BagMed.unity
+    guid: ede58956edc9eaa4bbb20dee84702a81
+  - enabled: 1
+    path: Assets/Scenes/Project 5 BagLarge.unity
+    guid: 5ff803d6d176f34448e1d2085dceb6ca
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
