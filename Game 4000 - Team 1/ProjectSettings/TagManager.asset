@@ -15,6 +15,7 @@ TagManager:
   - ProduceMelon
   - ProducePump
   - ProduceOnion
+  - Weapon
   layers:
   - Default
   - TransparentFX
