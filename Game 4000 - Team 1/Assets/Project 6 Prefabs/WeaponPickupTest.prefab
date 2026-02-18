@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7475161314906750060}
   - component: {fileID: 2081090972209908230}
   - component: {fileID: 970270258472629554}
+  - component: {fileID: 3468311855235099627}
   m_Layer: 0
   m_Name: WeaponPickupTest
   m_TagString: Weapon
@@ -228,3 +229,15 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &3468311855235099627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8500179124643405645}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da57800110fd423681b87299d829e80b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.UnityOnTriggerEnter2DMessageListener
