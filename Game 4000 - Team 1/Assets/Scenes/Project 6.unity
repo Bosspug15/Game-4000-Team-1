@@ -2141,7 +2141,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1181429914
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3147,7 +3147,7 @@ GameObject:
   - component: {fileID: 1547246676}
   m_Layer: 0
   m_Name: Hitbox
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3284,6 +3284,7 @@ PolygonCollider2D:
       - {x: -0.15234375, y: -0.47265625}
       - {x: 0, y: -0.5}
       - {x: 0.15234375, y: -0.47265625}
+      - {x: 0.17337902, y: -0.46213886}
       - {x: 0.29296875, y: -0.40234375}
       - {x: 0.40234375, y: -0.29296875}
       - {x: 0.47265625, y: -0.15234375}
