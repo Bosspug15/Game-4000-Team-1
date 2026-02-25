@@ -10,11 +10,11 @@ GameObject:
   m_Component:
   - component: {fileID: 2344225572840860359}
   - component: {fileID: 1106530515831203945}
-  - component: {fileID: 5963119899702150321}
-  - component: {fileID: 7598971177752595039}
-  - component: {fileID: 5461851574252442592}
+  - component: {fileID: -289470878747614176}
+  - component: {fileID: 4700524116733938038}
+  - component: {fileID: 1896827072845476028}
   m_Layer: 0
-  m_Name: Chair
+  m_Name: Holo Couch
   m_TagString: Furniture
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.157, y: -0.361, z: 0}
-  m_LocalScale: {x: 0.026509356, y: 0.026509356, z: 0.026509356}
+  m_LocalScale: {x: 0.083101526, y: 0.083101526, z: 0.083101526}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -84,7 +84,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 10
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2812718643927369173, guid: 4d7bae5edf2801f4caefa40be169ee31, type: 3}
+  m_Sprite: {fileID: 5564716871284105380, guid: adb916e0e44aa9c41adfd873331e13b5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -94,7 +94,7 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &5963119899702150321
+--- !u!114 &-289470878747614176
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,11 +107,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Type","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Value","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Type","value":{"$content":3,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Value","value":{"$content":2,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
---- !u!114 &7598971177752595039
+--- !u!114 &4700524116733938038
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,7 +127,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: b471d00b891b69e4b8bd8bb82ead47a6, type: 2}
---- !u!61 &5461851574252442592
+--- !u!61 &1896827072845476028
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,11 +165,11 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 16.86541, y: 24.33}
+    oldSize: {x: 11.211828, y: 11.81}
     newSize: {x: 16.86541, y: 24.33}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 16.86541, y: 24.33}
+  m_Size: {x: 11.211828, y: 11.81}
   m_EdgeRadius: 0
