@@ -8877,12 +8877,16 @@ PrefabInstance:
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"PlaceObjectTest","value":{"$content":1,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Energy","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Lumanite","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
-        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Furniture","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Chair","value":{"$content":2,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Table","value":{"$content":3,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Lava
+        Lamp","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
+        UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"Couch","value":{"$content":5,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.GameObject,
         UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 2344456454872898732, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: _data._objectReferences.Array.size
-      value: 2
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2344456454872898732, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: '_data._objectReferences.Array.data[0]'
@@ -8895,11 +8899,19 @@ PrefabInstance:
     - target: {fileID: 2344456454872898732, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: '_data._objectReferences.Array.data[2]'
       value: 
-      objectReference: {fileID: 2024695014}
+      objectReference: {fileID: 3636771398828246258, guid: b9a94c31d94b3214a84bf0928d92c626, type: 3}
     - target: {fileID: 2344456454872898732, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: '_data._objectReferences.Array.data[3]'
       value: 
-      objectReference: {fileID: 8300000, guid: ef6fcc010f6588b439028c98c8f09884, type: 3}
+      objectReference: {fileID: 8430541448000560849, guid: 387be6d2426036e449a83c46fe750ca7, type: 3}
+    - target: {fileID: 2344456454872898732, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[4]'
+      value: 
+      objectReference: {fileID: 3636771398828246258, guid: 9214eac14d7ada045bf240cf8bb2e01c, type: 3}
+    - target: {fileID: 2344456454872898732, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
+      propertyPath: '_data._objectReferences.Array.data[5]'
+      value: 
+      objectReference: {fileID: 3636771398828246258, guid: aef1196a86151e44ca63be508ae5a021, type: 3}
     - target: {fileID: 5041353293234235331, guid: 84224b5a050e0cd4ebc8edca488ee3bc, type: 3}
       propertyPath: m_GravityScale
       value: 0
