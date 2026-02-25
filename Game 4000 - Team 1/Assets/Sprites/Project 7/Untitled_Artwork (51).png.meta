@@ -117,6 +117,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -124,12 +137,12 @@ TextureImporter:
       name: Untitled_Artwork (51)_0
       rect:
         serializedVersion: 2
-        x: 214
+        x: 212
         y: 75
-        width: 539
+        width: 542
         height: 1554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2296665, y: 0.01820783}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -147,11 +160,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 925
-        y: 82
+        y: 81
         width: 539
-        height: 1554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        height: 1557
+      alignment: 9
+      pivot: {x: 0.2296665, y: 0.01820783}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -168,12 +181,12 @@ TextureImporter:
       name: Untitled_Artwork (51)_2
       rect:
         serializedVersion: 2
-        x: 1609
-        y: 82
-        width: 539
-        height: 1554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1606
+        y: 81
+        width: 543
+        height: 1557
+      alignment: 9
+      pivot: {x: 0.2296665, y: 0.01820783}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -190,12 +203,12 @@ TextureImporter:
       name: Untitled_Artwork (51)_3
       rect:
         serializedVersion: 2
-        x: 2290
-        y: 82
-        width: 539
-        height: 1554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 2288
+        y: 81
+        width: 542
+        height: 1557
+      alignment: 9
+      pivot: {x: 0.2296665, y: 0.01820783}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -212,12 +225,12 @@ TextureImporter:
       name: Untitled_Artwork (51)_4
       rect:
         serializedVersion: 2
-        x: 3002
-        y: 82
-        width: 539
-        height: 1554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 3001
+        y: 81
+        width: 542
+        height: 1557
+      alignment: 9
+      pivot: {x: 0.2296665, y: 0.01820783}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -234,12 +247,12 @@ TextureImporter:
       name: Untitled_Artwork (51)_5
       rect:
         serializedVersion: 2
-        x: 3679
+        x: 3677
         y: 75
-        width: 539
+        width: 542
         height: 1554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2296665, y: 0.01820783}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -256,12 +269,12 @@ TextureImporter:
       name: Untitled_Artwork (51)_6
       rect:
         serializedVersion: 2
-        x: 4333
-        y: 82
-        width: 539
-        height: 1554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 4330
+        y: 81
+        width: 543
+        height: 1557
+      alignment: 9
+      pivot: {x: 0.2296665, y: 0.01820783}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -278,12 +291,12 @@ TextureImporter:
       name: Untitled_Artwork (51)_7
       rect:
         serializedVersion: 2
-        x: 4988
+        x: 4986
         y: 75
-        width: 539
+        width: 543
         height: 1554
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2296665, y: 0.01820783}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -300,7 +313,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: cd599412d49b71942b4dbb6b8be5b470
     internalID: 0
     vertices: []
     indices: 
@@ -308,7 +321,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.22966650128364564,"y":0.01820782944560051},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":9,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Untitled_Artwork (51)_0: -4955907856233392267
       Untitled_Artwork (51)_1: -5787093332453545782
