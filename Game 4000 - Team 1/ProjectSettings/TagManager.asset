@@ -16,6 +16,7 @@ TagManager:
   - ProducePump
   - ProduceOnion
   - Weapon
+  - Furniture
   layers:
   - Default
   - TransparentFX
