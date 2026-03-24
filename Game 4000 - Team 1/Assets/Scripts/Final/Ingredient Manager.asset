@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: Ingredient Manager
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"Max
+      Ingredients","value":{"$content":12,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Current
+      Ingredients","value":{"$content":0,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"
+      Spawn Area","value":null,"typeHandle":{"Identification":"UnityEngine.GameObject,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":263.1247,"y":21.49979},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"09904cbf-2553-4b21-ac29-4326de539517","$version":"A","$type":"Unity.VisualScripting.Start","$id":"12"},{"argumentCount":0,"defaultValues":{"name":{"$content":"Fill
+      Pot","$type":"System.String"},"target":null},"position":{"x":-24.0,"y":-171.0},"guid":"fb146d74-3367-4141-984d-4c53f5afe64e","$version":"A","$type":"Unity.VisualScripting.TriggerCustomEvent","$id":"14"},{"argumentCount":0,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Fill
+      Pot","$type":"System.String"}},"position":{"x":175.0,"y":-242.0},"guid":"7ed63c62-27c4-46c7-8e94-8c54f1918da3","$version":"A","$type":"Unity.VisualScripting.CustomEvent"},{"argumentCount":1,"coroutine":false,"defaultValues":{"target":null,"name":{"$content":"Ingredient
+      Removed","$type":"System.String"}},"position":{"x":7.0,"y":89.0},"guid":"95dfed63-dd3d-4091-9cc0-4ebf3ed3f97d","$version":"A","$type":"Unity.VisualScripting.CustomEvent"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"4a45dced-a603-411c-a673-3d75069c4fd0","$type":"Unity.VisualScripting.ControlConnection"},{"position":{"xMin":-200.6,"yMin":-309.0,"xMax":21.79999,"yMax":-193.0},"title":"Ingredient
+      Manager Tasks","body":"Track how many ingredients are in pot, Make sure at
+      least one of each ingredient is in pot, spawn them","colorTheme":"Classic","guid":"2d77fd46-869c-4df5-9733-25dbefce8ec9","$type":"Unity.VisualScripting.StickyNote"},{"position":{"xMin":99.0,"yMin":-221.0,"xMax":199.0,"yMax":-121.0},"title":"Sticky
+      Note","body":"initial spawn, pot starts filled","colorTheme":"Classic","guid":"c3e947a9-6ae8-40da-8f7f-be417e017c3d","$type":"Unity.VisualScripting.StickyNote"},{"position":{"xMin":-189.0,"yMin":4.0,"xMax":30.0,"yMax":153.0},"title":"Sticky
+      Note","body":"when ingredient is destroyed triggers this.\nin takes the type
+      of ingredient\n--> does check for at least 1\nif there is 1 then spawn random
+      ingredient\nif there isnt replace it","colorTheme":"Classic","guid":"ff935995-e194-4952-9fa2-8975e6a69ced","$type":"Unity.VisualScripting.StickyNote"}],"$version":"A"}}'
+    _objectReferences: []
