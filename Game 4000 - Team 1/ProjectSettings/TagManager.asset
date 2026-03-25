@@ -17,6 +17,7 @@ TagManager:
   - ProduceOnion
   - Weapon
   - Furniture
+  - Ingredient
   layers:
   - Default
   - TransparentFX
