@@ -10,6 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 8491677864083798303}
   - component: {fileID: 6337366843797164752}
+  - component: {fileID: 8931565153782514057}
+  - component: {fileID: -6447718183897106181}
   m_Layer: 0
   m_Name: Skewer Length
   m_TagString: Untagged
@@ -91,3 +93,27 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &8931565153782514057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9124488111109399131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754d3daf86414d0aacb711e36a6ba92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.UnityOnMouseDownMessageListener
+--- !u!114 &-6447718183897106181
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9124488111109399131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19124ba62bea429c8d1b6efb5e4650c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.UnityOnMouseOverMessageListener
