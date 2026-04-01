@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3136237626634748483}
   - component: {fileID: 697070678626150796}
+  - component: {fileID: 7681553792820827557}
   m_Layer: 0
   m_Name: Increase Max Ingredients
   m_TagString: Untagged
@@ -91,3 +92,15 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &7681553792820827557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2377361912933849351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 754d3daf86414d0aacb711e36a6ba92b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.UnityOnMouseDownMessageListener
