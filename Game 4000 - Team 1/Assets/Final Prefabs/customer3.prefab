@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 6112539058065694278}
   - component: {fileID: 4923161123865715115}
   m_Layer: 0
-  m_Name: TESTCustomer
+  m_Name: customer3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -29,7 +29,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -5.3621, y: -2.9005, z: 0}
-  m_LocalScale: {x: 1.8620654, y: 1.9381669, z: 1}
+  m_LocalScale: {x: 0.3047977, y: 0.3718946, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -83,8 +83,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
-  m_Color: {r: 0.81886786, g: 0.5778559, b: 0.14059804, a: 1}
+  m_Sprite: {fileID: 21300000, guid: d6ea6b75076ee5849b5ff7a63538373d, type: 3}
+  m_Color: {r: 0.97735846, g: 0.9570737, b: 0.9570737, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -106,7 +106,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"isServed","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!114 &4923161123865715115
 MonoBehaviour:
