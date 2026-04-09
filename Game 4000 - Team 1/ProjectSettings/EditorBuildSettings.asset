@@ -29,9 +29,15 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Project 6.unity
     guid: 7b08db2311d620c4e8921e5ee0458c83
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Final Ordering Test.unity
     guid: d517847dd3eb5c146a97ed974703d666
+  - enabled: 1
+    path: Assets/Scenes/FINAL 2.unity
+    guid: c338508f3c96bca4397be819a6e4d765
+  - enabled: 1
+    path: Assets/Scenes/FINAL.unity
+    guid: ba3e1c012069f2840b15164e24c7732e
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
