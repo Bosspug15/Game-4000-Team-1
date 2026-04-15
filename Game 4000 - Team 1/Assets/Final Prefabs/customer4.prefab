@@ -106,9 +106,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"isServed","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
-    _objectReferences: []
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"decayRate","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"currentPatience","value":{"$content":0.0,"$type":"System.Single"},"typeHandle":{"Identification":"System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isServed","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"madSprite","value":{"$content":0,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.Sprite,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"pawSpriteRender","value":null,"typeHandle":{"Identification":"UnityEngine.SpriteRenderer,
+      UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"pawAnimator","value":null,"typeHandle":{"Identification":"UnityEngine.Animator,
+      UnityEngine.AnimationModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"pawSprites","value":{"$content":[{"$content":1,"$type":"UnityEngine.Object"},{"$content":2,"$type":"UnityEngine.Object"},{"$content":3,"$type":"UnityEngine.Object"},{"$content":4,"$type":"UnityEngine.Object"},{"$content":5,"$type":"UnityEngine.Object"},{"$content":6,"$type":"UnityEngine.Object"},{"$content":7,"$type":"UnityEngine.Object"},{"$content":8,"$type":"UnityEngine.Object"},{"$content":9,"$type":"UnityEngine.Object"}],"$type":"Unity.VisualScripting.AotList"},"typeHandle":{"Identification":"Unity.VisualScripting.AotList,
+      Unity.VisualScripting.Core, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 21300000, guid: 567067a6bded45d41a719414a270c9a3, type: 3}
+    - {fileID: 3204290344396990444, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
+    - {fileID: 7332862405812815151, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
+    - {fileID: -9136718100887295082, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
+    - {fileID: 1677797932986182739, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
+    - {fileID: -1327541238063928221, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
+    - {fileID: 4648200429284012715, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
+    - {fileID: 3283334168581005867, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
+    - {fileID: -7736551949181321775, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
+    - {fileID: 7910614585964355632, guid: 5d953314e6c7f2a4387a527e3cf8217f, type: 3}
 --- !u!114 &4923161123865715115
 MonoBehaviour:
   m_ObjectHideFlags: 0
