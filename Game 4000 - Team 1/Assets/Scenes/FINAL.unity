@@ -705,7 +705,9 @@ PrefabInstance:
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"Hairball
         penalty","value":{"$content":-20,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"MeowSFX","value":{"$content":4,"$type":"UnityEngine.Object"},"typeHandle":{"Identification":"UnityEngine.AudioClip,
-        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GiftBonus","value":{"$content":15,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null","$version":"A"},"$version":"A"},{"name":"GiftBonus","value":{"$content":10,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"GiftScoreBar","value":{"$content":25,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+        mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isGift","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
         mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
       objectReference: {fileID: 0}
     - target: {fileID: 1692591885229280978, guid: 2c767b5dcd52cdb4093aa54325a37b00, type: 3}
@@ -789,6 +791,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 894829543376849707, guid: 3b5849ad66425b54f80386c0f5bd4b60, type: 3}
   m_PrefabInstance: {fileID: 2514083787201954376}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &467638170
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 467638166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &489220338
 GameObject:
   m_ObjectHideFlags: 0
@@ -9591,7 +9608,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 894829543376849707, guid: 3b5849ad66425b54f80386c0f5bd4b60, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 467638170}
   m_SourcePrefab: {fileID: 100100000, guid: 3b5849ad66425b54f80386c0f5bd4b60, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
