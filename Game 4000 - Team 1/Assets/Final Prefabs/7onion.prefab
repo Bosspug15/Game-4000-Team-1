@@ -12,10 +12,10 @@ GameObject:
   - component: {fileID: 2089387763678783073}
   - component: {fileID: 2943387692894429665}
   - component: {fileID: 7230407328848060397}
-  - component: {fileID: 5022495050026828583}
-  - component: {fileID: 1018385171952458345}
+  - component: {fileID: 9093160154850038862}
+  - component: {fileID: -5958325653949543608}
   m_Layer: 8
-  m_Name: Ingredient6TEST
+  m_Name: 7onion
   m_TagString: Ingredient
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -85,8 +85,8 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 5f8f710e4fb052c488730d315b86442e, type: 3}
-  m_Color: {r: 0.8841937, g: 0.9622642, b: 0.8841937, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 933d0af1f27e8cd489926cf6056878d6, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -108,8 +108,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.Variables
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Name","value":{"$content":"Pepper","$type":"System.String"},"typeHandle":{"Identification":"System.String,
-      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IngredientType","value":{"$content":5,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Name","value":{"$content":"Onion","$type":"System.String"},"typeHandle":{"Identification":"System.String,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IngredientType","value":{"$content":6,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"IngredientClass","value":{"$content":1,"$type":"System.Int32"},"typeHandle":{"Identification":"System.Int32,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"},{"name":"isSkewered","value":{"$content":false,"$type":"System.Boolean"},"typeHandle":{"Identification":"System.Boolean,
       mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089","$version":"A"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
@@ -130,7 +130,7 @@ MonoBehaviour:
     _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
     _objectReferences:
     - {fileID: 11400000, guid: 19db87768177f3147b32c961e94efe78, type: 2}
---- !u!61 &5022495050026828583
+--- !u!61 &9093160154850038862
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -164,7 +164,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.14242649, y: 0.42727828}
+  m_Offset: {x: -0.07768679, y: 0.41433096}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -174,9 +174,9 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 3.7190437, y: 1.8545566}
+  m_Size: {x: 6.4898787, y: 6.282714}
   m_EdgeRadius: 0
---- !u!50 &1018385171952458345
+--- !u!50 &-5958325653949543608
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
